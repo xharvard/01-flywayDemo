@@ -3,7 +3,8 @@ package com.xhh.flyway.main;
 import org.flywaydb.core.Flyway;
 
 /**
- * class description goes here
+ * sql文件命名约定： V[version.version]__Description.sql
+ * java命名约定： V_[version_version]__Description.java
  *
  * @author xhh
  * @version 1.0
